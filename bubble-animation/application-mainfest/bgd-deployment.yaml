@@ -17,7 +17,6 @@ spec:
       labels:
         app: bubble-animation
     spec:
-      serviceAccountName: bubble-animation-sa
       containers:
       - image: quay.io/rhdevelopers/bgd:1.0.0
         name: bubble-animation
